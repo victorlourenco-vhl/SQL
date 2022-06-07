@@ -13,3 +13,9 @@
 
 - Tabela Fato
   - Representa os fatos de uma empresa que podem se repetir ou não
+
+## Principais comandos
+
+### CONSTRAINT
+- Serve para criar uma chave estrangeira
+  - **CONSTRAINT** fk_nome **FOREIGN KEY** (campo_tb_atual) **REFERENCES** tb_de_ligacao (id_campo_tb_ligacao)
