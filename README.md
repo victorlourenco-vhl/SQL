@@ -1,4 +1,4 @@
-# SQL Server
+# SQL Server 🎲
 
 - Chave primária (Primary Key / PK)
   - Indica um registro de forma exclusiva
