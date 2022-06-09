@@ -36,7 +36,19 @@
     
 ### SELECT
   - Serve para selecionar os campos de uma tabela
-    - **SELECT** nome_campo(s) **FROM**  nome_tabela  
-    - **SELECT** nome.\*tabela **FROM**  nome_tabela  -- Exemplo de query com o nome da tebela
-    - **SELECT** * **FROM** nome_tabela -- Serve para selecionar todos os campos da tabela
+    - **SELECT** nome_campo(s) **FROM**  nome_tabela
+    - Utilizar Alias (APELIDO) para Nome da Tabela  
+      - **SELECT** * **FROM**  nome_tabela  alias 
+      - **SELECT** alias.\* **FROM**  nome_tabela alias
+      - **SELECT** alias.nome_campo(s) **FROM** nome_tabela alias
+    - Utilizado Alias para nome de coluna
+      - obs: O uso do **AS** é opcional
+      - **SELECT** t.id_curso **AS** IDC, t.id_turma **AS** IDT, t.data_inicio **AS** DATA_COMECO **FROM** dbo.Turmas t
+    - Exemplo de query com o nome da tebela
+      - **SELECT** nome.\*tabela **FROM**  nome_tabela  
+    - Serve para selecionar todos os campos da tabela
+      - **SELECT** * **FROM** nome_tabela  
+
+
+### JOIN (Junção de Tabelas)
   
