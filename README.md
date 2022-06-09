@@ -27,5 +27,6 @@
   - **ALTER TABLE** tabela **DROP** nome_constraint
   - **DROP TABLE** nome_tabela
 ### DELETE
-  - **DELETE FROM** nome_tabela **WHERE** nome_campo = valor
+  - Comando utilizado para eleminar uma ou mais linha da tabela
+    - **DELETE FROM** nome_tabela **WHERE** nome_campo = valor
   
