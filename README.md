@@ -22,3 +22,10 @@
 ### INSERT
 - Serve para inserir dados na tabela
   - **INSERT INTO** tabela (campos da tabela) **VALUES** (valores para insert)
+### DROP
+- É possível utilizar o DROP para uma apagar uma tabela ou contraint
+  - **ALTER TABLE** tabela **DROP** nome_constraint
+  - **DROP TABLE** nome_tabela
+### DELETE
+  **DELETE FROM** nome_tabela **WHERE** nome_campo = valor
+  
