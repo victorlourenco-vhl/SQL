@@ -27,5 +27,5 @@
   - **ALTER TABLE** tabela **DROP** nome_constraint
   - **DROP TABLE** nome_tabela
 ### DELETE
-  **DELETE FROM** nome_tabela **WHERE** nome_campo = valor
+  - **DELETE FROM** nome_tabela **WHERE** nome_campo = valor
   
