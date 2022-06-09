@@ -6,6 +6,7 @@
   - Não pode ser nula
   
 - Chave estrangeira  (Foreign Key / FK)
+  - Relaciona um registro com outras tabelas
   - Sempre ocorre relacionamento entre tabelas
 
 - Tabela Dimensão
