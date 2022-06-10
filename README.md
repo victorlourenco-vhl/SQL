@@ -71,6 +71,6 @@
 
 
 ### JOIN (Junção de Tabelas)
-  ![image](https://user-images.githubusercontent.com/78964459/173083798-570b3baf-26f7-4432-a1e5-5b9b50af86f7.png)
+  <img align="center" alt="Tipos de Joins" height="591" width="824" src="https://user-images.githubusercontent.com/78964459/173084159-b90b80bc-4fad-4c45-ab14-8265c449e6ee.png">
 
 
