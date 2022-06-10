@@ -47,7 +47,27 @@
     - Exemplo de query com o nome da tebela
       - **SELECT** nome.\*tabela **FROM**  nome_tabela  
     - Serve para selecionar todos os campos da tabela
-      - **SELECT** * **FROM** nome_tabela  
+      - **SELECT** * **FROM** nome_tabela
+
+### SELECT com WHERE
+  - Seve para filtrar os valores da consulta
+    - **SELECT** nome_coluna(s) **FROM** nome_tabela(s)  **WHERE** nome_coluna = valor
+    - **Operadores**: 
+      - \> maior
+      - < menor
+      - \>= maior ou igual
+      - <= menor ou igual
+      - != | <> diferente
+      - = igual
+    - Exmplos de consulta: 
+      - **SELECT** a.* **FROM** Alunos a **WHERE** a.sexo = 'F' **AND** a.data_nascismento >= '01/01/2003' **AND** a.id_aluno >= 300;
+      - **SELECT** a.nome, a.sexo, year(a.data_nascismento) **AS** ano from dbo.Alunos a **WHERE** a.data_nascismento >= '01/01/2003';  **-->** A função year() vai         retornar só o ano
+      - **SELECT** c.nome_curso, t.data_inicio, t.data_termino,
+        floor(axt.valor), floor((axt.valor * axt.valor_desconto)) **AS** desconto,
+        floor(axt.valor - (axt.valor * axt.valor_desconto)) **AS** "valor final"
+        **FROM** AlunosxTurmas axt, Turmas t, Cursos c
+        **WHERE** axt.id_turma = t.id_turma 
+        **AND** t.id_curso = c.id_curso; **-->** O floor() arredondamento o valor para baixo (trunca o valor)
 
 
 ### JOIN (Junção de Tabelas)
