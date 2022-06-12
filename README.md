@@ -21,6 +21,10 @@
 
 ## Principais comandos
 
+## USE
+- Serve para selecionar um banco de dados para uso
+  - **USE** nome_banco
+
 ## CREATE
 - Pode ser usando para criar uma tabela
   - **CREATE** **TABLE** nome_tabela
@@ -81,6 +85,6 @@
 
 
 ### JOIN (Junção de Tabelas)
-  <img align="center" alt="Tipos de Joins" height="591" width="824" src="https://user-images.githubusercontent.com/78964459/173084159-b90b80bc-4fad-4c45-ab14-8265c449e6ee.png">
+  ![image](https://user-images.githubusercontent.com/78964459/173239771-63154142-3315-4bd6-af25-19ba1b0bd845.png)
 
 
