@@ -1,5 +1,4 @@
 # SQL Server 🎲
-
 - Chave primária (Primary Key / PK)
   - Indica um registro de forma exclusiva
   - Não se repete
@@ -15,7 +14,18 @@
 - Tabela Fato
   - Representa os fatos de uma empresa que podem se repetir ou não
 
+- Tabelas **>** Registros **>** Campos
+
+## Tipos Primitivos
+![image](https://user-images.githubusercontent.com/78964459/173237745-1612fa24-bd75-4bd4-ba9b-845799f6e6ff.png)
+
 ## Principais comandos
+
+## CREATE
+- Pode ser usando para criar uma tabela
+  - **CREATE** **TABLE** nome_tabela
+- Ou pode ser usado para criar um banco de dados
+  - **CREATE** **DATABASE** nome_banco
 
 ### ALTER TABLE / CONSTRAINT
 - Serve para criar uma chave estrangeira
