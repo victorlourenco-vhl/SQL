@@ -39,7 +39,7 @@
 - Serve para criar uma chave estrangeira
   - **ALTER TABLE** tabela **ADD CONSTRAINT** fk_nome **FOREIGN KEY** (campo_tb_atual) **REFERENCES** tb_de_ligacao (id_campo_tb_ligacao)
   
-### INSERT
+### INSERT comando DML (Data Manipulation language)
 - Serve para inserir dados na tabela
   - **INSERT INTO** tabela (campos da tabela) **VALUES** (valores para insert)
   
