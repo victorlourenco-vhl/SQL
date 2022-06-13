@@ -25,7 +25,7 @@
 - Serve para selecionar um banco de dados para uso
   - **USE** nome_banco
 
-### CREATE
+### CREATE comando DDL (Data Definition Language)
 - Pode ser usando para criar uma tabela
   - **CREATE** **TABLE** nome_tabela
 - Ou pode ser usado para criar um banco de dados
