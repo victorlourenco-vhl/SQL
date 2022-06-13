@@ -35,10 +35,14 @@
 - Descreve a estrutura de tabelas com suas colunas e tipo de dados
   - **DESCRIBE** nome_tabela
 
-### ALTER TABLE / CONSTRAINT
-- Serve para criar uma chave estrangeira
+### ALTER TABLE 
+- Serve para alterar os dados de uma tabela
+- Criando chave estrangeira
   - **ALTER TABLE** tabela **ADD CONSTRAINT** fk_nome **FOREIGN KEY** (campo_tb_atual) **REFERENCES** tb_de_ligacao (id_campo_tb_ligacao)
-  
+- Adionando coluna na tabela
+  - **ALTER TABLE** nome_tabela **ADD COLUMN** nome_coluna tipo_primitivo
+- **Obs:** para remover um dado da tabela basta trocar o **ADD** por **DROP** 
+- 
 ### INSERT comando DML (Data Manipulation language)
 - Serve para inserir dados na tabela
   - **INSERT INTO** tabela (campos da tabela) **VALUES** (valores para insert)
