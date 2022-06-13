@@ -21,15 +21,19 @@
 
 ## Principais comandos
 
-## USE
+### USE
 - Serve para selecionar um banco de dados para uso
   - **USE** nome_banco
 
-## CREATE
+### CREATE
 - Pode ser usando para criar uma tabela
   - **CREATE** **TABLE** nome_tabela
 - Ou pode ser usado para criar um banco de dados
   - **CREATE** **DATABASE** nome_banco
+
+### DESCRIBE
+- Descreve a estrutura de tabelas com suas colunas e tipo de dados
+  - **DESCRIBE** nome_tabela
 
 ### ALTER TABLE / CONSTRAINT
 - Serve para criar uma chave estrangeira
