@@ -1,4 +1,4 @@
-# SQL Server 🎲
+# Linguagem SQL 🎲
 - Chave primária (Primary Key / PK)
   - Indica um registro de forma exclusiva
   - Não se repete
@@ -42,8 +42,13 @@
 - Adionando coluna na tabela
   - **ALTER TABLE** nome_tabela **ADD COLUMN** nome_coluna tipo_primitivo **AFTER** nome_coluna # O **AFTER** é opcional. Caso queira colocar a coluna
     na primeira posição deve passsar o parâmentro **FIRST**
-- Modificando uma coluna
-   
+- Modificando as colunas da tabela
+  - MODIFY - Permite redimensionar a coluna
+    - **ALTER TABLE** nome_tabela **MODIFY COLUMN** tipo_primitivo(novo_tamanho) **NOT NULL**
+  - CHANGE - Renomear uma coluna, alterar o tipo e valor padrão
+    - **ALTER TABLE** nome_tabela **CHANGE COLUMN** nome_tabela novo_nome tipo_primitvo(tamanho)  **NOT NULL** **DEFAULT** ' '
+- Renomear a tabela
+  - **ALTER TABLE** nome_tabela **RENAME TO** novo_nome
 - **Obs:** para remover um dado da tabela basta trocar o **ADD** por **DROP** 
 
 ### INSERT comando DML (Data Manipulation language)
