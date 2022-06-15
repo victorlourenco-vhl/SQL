@@ -56,7 +56,7 @@
   - **INSERT INTO** tabela (campos da tabela) **VALUES** (valores para insert)
   
 ### DROP
-- É possível utilizar o DROP para uma apagar uma tabela ou contraint
+- É possível utilizar o DROP para uma apagar uma tabela ou constraint
   - **ALTER TABLE** tabela **DROP** nome_constraint
   - **DROP TABLE** nome_tabela
   
