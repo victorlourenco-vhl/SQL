@@ -51,6 +51,9 @@
   - **ALTER TABLE** nome_tabela **RENAME TO** novo_nome
 - **Obs:** para remover um dado da tabela basta trocar o **ADD** por **DROP** 
 
+### UPDATE
+
+
 ### INSERT comando DML (Data Manipulation language)
 - Serve para inserir dados na tabela
   - **INSERT INTO** tabela (campos da tabela) **VALUES** (valores para insert)
