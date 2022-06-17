@@ -15,6 +15,7 @@
   - Representa os fatos de uma empresa que podem se repetir ou não
 
 - Tabelas **>** Registros **>** Campos
+- **Obs:** Linha = Registro = Tupla
 
 ## Tipos Primitivos
 ![image](https://user-images.githubusercontent.com/78964459/173237745-1612fa24-bd75-4bd4-ba9b-845799f6e6ff.png)
@@ -35,8 +36,12 @@
 - Descreve a estrutura de tabelas com suas colunas e tipo de dados
   - **DESCRIBE** nome_tabela
 
+### INSERT comando DML (Data Manipulation language)
+- Serve para inserir dados na tabela
+  - **INSERT INTO** tabela (campos da tabela) **VALUES** (valores para insert)
+
 ### ALTER TABLE 
-- Serve para alterar os dados de uma tabela
+- Serve para manipular as colunas de uma tabela
 - Criando chave estrangeira
   - **ALTER TABLE** tabela **ADD CONSTRAINT** fk_nome **FOREIGN KEY** (campo_tb_atual) **REFERENCES** tb_de_ligacao (id_campo_tb_ligacao)
 - Adionando coluna na tabela
@@ -51,18 +56,22 @@
   - **ALTER TABLE** nome_tabela **RENAME TO** novo_nome
 - **Obs:** para remover um dado da tabela basta trocar o **ADD** por **DROP** 
 
-### INSERT comando DML (Data Manipulation language)
-- Serve para inserir dados na tabela
-  - **INSERT INTO** tabela (campos da tabela) **VALUES** (valores para insert)
+### UPDATE
+- Serve para manipular as linhas de uma tabela
+  - **UPDATE** nome_tabela **SET** nome_linha = novo_valor **WHERE** nome_referencia = valor **LIMIT** 1 # O limit serve para limitar a quantidade de linhas que será       modificada
+
+### DELETE
+  - Comando utilizado para eleminar uma ou mais linhas da tabela
+    - **DELETE FROM** nome_tabela **WHERE** nome_campo = valor
+
+### TRUNCATE
+- Deleta todas as linha de uma tabela
+  - **TRUNCATE** **FROM** nome_tabela
   
 ### DROP
 - É possível utilizar o DROP para uma apagar uma tabela ou constraint
   - **ALTER TABLE** tabela **DROP** nome_constraint
   - **DROP TABLE** nome_tabela
-  
-### DELETE
-  - Comando utilizado para eleminar uma ou mais linhas da tabela
-    - **DELETE FROM** nome_tabela **WHERE** nome_campo = valor
     
 ### SELECT
   - Serve para selecionar os campos de uma tabela
