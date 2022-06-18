@@ -16,6 +16,7 @@
 
 - Tabelas **>** Registros **>** Campos
 - **Obs:** Linha = Registro = Tupla
+- **Resultset:** É o resultado de uma consulta em SQL
 
 ## Tipos Primitivos
 ![image](https://user-images.githubusercontent.com/78964459/173237745-1612fa24-bd75-4bd4-ba9b-845799f6e6ff.png)
@@ -75,6 +76,10 @@
     
 ### SELECT
   - Serve para selecionar os campos de uma tabela
+  - Pricipais parâmetros:
+    - **ORDER BY** nome_coluna **-->** Ordena os registros em ordem crescecente, se quisero inverso é só passar o **DESC** depois de nome coluna
+    - **BETWEEN** valorA **AND** valorB **-->** Filtra os valores que estão entreo o valorA e o valorB
+    - **IN** (valorA, valorB...) **-->** Filtra por determinados valores
     - **SELECT** nome_campo(s) **FROM**  nome_tabela
     - Utilizar Alias (APELIDO) para Nome da Tabela  
       - **SELECT** * **FROM**  nome_tabela  alias 
